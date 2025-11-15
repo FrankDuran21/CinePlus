@@ -46,7 +46,7 @@ body{
 .badge-genre{ background: rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.14); color:var(--ink) }
 .price{ color:#ffd166; font-weight:700 }
 
-/* ====== PROMOS con IMAGEN (estilos agregados) ====== */
+/* == PROMOS con IMAGEN== */
 
 /* Contenedor de imagen responsiva */
 .promo-card .promo-thumb{
@@ -78,7 +78,7 @@ body{
 .promo-card .p-3{ padding: .9rem !important; }
 .promo-card .card-title{ margin: .6rem 0 .25rem; }
 
-/* Hover sutil (imagen hace zoom y tarjeta se eleva) */
+/* Hover  (imagen hace zoom y se eleva) */
 .promo-card{
   transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
   border-radius: 16px;
@@ -93,7 +93,7 @@ body{
   filter: saturation(1.05) contrast(1.05) brightness(1);
 }
 
-/* Ajustes en carrusel ya existentes */
+/* Ajustes en carrusel*/
 .promo-carousel .carousel-item{ padding: .25rem 0 1rem; }
 .promo-carousel .carousel-control-prev,
 .promo-carousel .carousel-control-next{
@@ -108,7 +108,7 @@ body{
 .promo-carousel .carousel-control-prev-icon,
 .promo-carousel .carousel-control-next-icon{ filter: invert(1) grayscale(1); }
 
-/* Espaciados y separadores (igual que antes) */
+/* Espaciados y separadores  */
 #promos .section-title{ margin-top: 72px; }
 #promos .section-sub{ margin-bottom: 28px; }
 .promo-block + .promo-block{ padding-top: 8px; border-top: 1px solid rgba(255,255,255,.06); }
@@ -127,7 +127,7 @@ body{
   .promo-card .promo-thumb{ aspect-ratio: 16 / 10; }
 }
 
-/* ====== COLOR ROJO MÁS CLARO EN LOS TÍTULOS + HOVER ====== */
+/* == COLOR ROJO MÁS CLARO EN LOS TÍTULOS + HOVER == */
 
 /* Color base del título */
 #promos .card-title {
@@ -140,14 +140,7 @@ body{
   color: #ff626e; /* tono un poco más brillante al hacer hover */
 }
 
-
-
-/* =========================================================
-   ============ (AÑADIDO AL FINAL) ===================
-   Accesibilidad, estados de foco y mejoras opcionales /*
-
-
-/* Foco visible para navegación y botones (accesibilidad) */
+/* Foco visible para navegación y botones */
 .btn-brand:focus-visible{
   outline: 2px solid #fff;
   outline-offset: 2px;
@@ -163,7 +156,7 @@ body{
 }
 
 
-/* Estado hover/focus para el botón de marca (feedback más notorio) */
+/* Estado hover/focus para el botón de marca */
 .btn-brand:hover,
 .btn-brand:focus{
   filter: brightness(1.05);
@@ -189,7 +182,7 @@ body{
   }
 }
 
-/* === AJUSTE PARA QUE LAS IMÁGENES SE VEAN MÁS ALTAS === */
+/* === ajuste para que las imagenes se vean mas grandes === */
 .promo-card .promo-thumb {
   aspect-ratio: unset;          
   height: 260px;               
