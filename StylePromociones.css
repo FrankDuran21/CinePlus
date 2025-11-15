@@ -141,12 +141,6 @@ body{
 }
 
 
-
-/* =========================================================
-   ============ (AÑADIDO AL FINAL) ===================
-   Accesibilidad, estados de foco y mejoras opcionales /*
-
-
 /* Foco visible para navegación y botones (accesibilidad) */
 .btn-brand:focus-visible{
   outline: 2px solid #fff;
